@@ -2,14 +2,8 @@ import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import { Row, Col } from 'antd';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import TweenOne from 'rc-tween-one';
 import { getChildrenToRender } from './utils';
 
-const loop = {
-  duration: 3000,
-  yoyo: true,
-  repeat: -1,
-};
 
 class Content extends React.PureComponent {
   render() {

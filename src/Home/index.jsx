@@ -139,7 +139,7 @@ export default class Home extends React.Component {
         key="Content11_0"
         dataSource={Content110DataSource}
         isMobile={this.state.isMobile}
-      />, // 导航和页尾不进入锚点区，如果需要，自行添加;
+      />, 
       <Point
         key="list"
         data={[
@@ -165,9 +165,7 @@ export default class Home extends React.Component {
           this.dom = d;
         }}
       >
-        {/* 如果不是 dva 2.0 替换成 {children} start */}
         {this.state.show && children}
-        {/* 如果不是 dva 2.0 替换成 {children} end */}
       </div>
     );
   }
