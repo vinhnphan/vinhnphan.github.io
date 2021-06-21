@@ -18,11 +18,15 @@
     "react-intl": "^2.4.0",
     "react-sublime-video": "^0.2.5",
     "dora": "^0.4.5",
-    "dora-plugin-webpack": "^1.0.0"
-  },
-  "devDependencies": {
+    "dora-plugin-webpack": "^1.0.0",
     "atool-build": "^1.0.2",
     "atool-test-mocha": "^0.1.7",
+    "gh-pages": "^1.1.0",
+    "pre-commit": "^1.2.2",
+    "redbox-react": "^1.5.0",
+    "expect": "^21.2.1"
+  },
+  "devDependencies": {
     "babel-eslint": "^8.0.2",
     "babel-plugin-import": "^1.6.2",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -31,11 +35,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.5.1",
-    "expect": "^21.2.1",
-    "gh-pages": "^1.1.0",
-    "pre-commit": "^1.2.2",
-    "redbox-react": "^1.5.0"
+    "eslint-plugin-react": "^7.5.1"
   },
   "pre-commit": [
     "lint"
